@@ -1,29 +1,428 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Página oficial de Leonardo E. Silva, desenvolvedor. Site em construção. Novidades em breve!"
+      content="Portfólio acadêmico e profissional de Leonardo Silva com formação, experiência em suporte técnico e projetos desenvolvidos ao longo do curso."
     />
-    <meta
-      name="keywords"
-      content="Leonardo E. Silva, desenvolvedor, site em construção, programação, portfólio"
+    <title>Leonardo Silva | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
     />
-    <meta name="author" content="Leonardo E. Silva" />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Em Construção | Leonardo E. Silva - Desenvolvedor</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="icon">🚧</div>
-      <h1>Site em Construção</h1>
-      <p>
-        Trabalhando para trazer novidades.<br />
-        Volte em breve!
-      </p>
-    </div>
+    <div class="backdrop backdrop-one"></div>
+    <div class="backdrop backdrop-two"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#inicio">LS</a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfólio acadêmico</p>
+          <h1>Leonardo Silva</h1>
+          <p class="hero-text">
+            Profissional de suporte técnico com atuação em automação comercial,
+            em formação superior em desenvolvimento de software e com projetos
+            que conectam prática acadêmica e experiência de atendimento.
+          </p>
+
+          <div class="hero-links">
+            <a class="button primary" href="https://github.com/leoesilva" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a class="button secondary" href="#projetos">Ver projetos</a>
+          </div>
+
+          <dl class="hero-stats">
+            <div>
+              <dt>Curso</dt>
+              <dd>DS Multiplataforma</dd>
+            </div>
+            <div>
+              <dt>Faculdade</dt>
+              <dd>Fatec Zona Leste</dd>
+            </div>
+            <div>
+              <dt>Início</dt>
+              <dd>08/2023</dd>
+            </div>
+            <div>
+              <dt>Conclusão</dt>
+              <dd>07/2026</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="profile-card" aria-label="Foto e resumo do aluno">
+          <div class="profile-photo">
+            <img
+              src="assets/profile.jpeg"
+              alt="Foto de perfil de Leonardo Silva"
+              class="profile-image"
+            />
+          </div>
+          <div class="profile-info">
+            <h2>Leonardo Silva</h2>
+            <p>
+              Atuação em suporte técnico, automação comercial e atendimento ao
+              cliente, com formação e projetos voltados ao desenvolvimento de
+              software.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="content-section" id="sobre">
+        <div class="section-heading">
+          <p class="eyebrow">Identidade e curso</p>
+          <h2>Dados acadêmicos</h2>
+        </div>
+        <div class="info-grid two-columns">
+          <article class="panel">
+            <h3>Formação</h3>
+            <p><strong>Faculdade:</strong> Fatec Zona Leste - Centro Paula Souza</p>
+            <p><strong>Curso:</strong> Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma</p>
+            <p><strong>Início:</strong> 08/2023</p>
+            <p><strong>Previsão de conclusão:</strong> 07/2026</p>            
+          </article>
+          <article class="panel">
+            <h3>GitHub</h3>
+            <p>
+              <a href="https://github.com/leoesilva" target="_blank" rel="noreferrer">
+                github.com/leoesilva
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="experiencia">
+        <div class="section-heading">
+          <p class="eyebrow">Trajetória profissional</p>
+          <h2>Experiência</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item panel">
+            <p class="timeline-meta">11/2019 - até o momento</p>
+            <h3>KS Sistemas Ltda - EPP</h3>
+            <p><strong>Cargo:</strong> Técnico de Help Desk</p>
+            <p>
+              <strong>Atividades:</strong> Atendimento multicanal e acesso remoto para
+              orientação, configuração e resolução de problemas, além de implantação
+              e treinamento presencial e remoto em automação comercial.
+            </p>
+          </article>
+          <article class="timeline-item panel">
+            <p class="timeline-meta">10/2018 - 10/2019</p>
+            <h3>KS Sistemas Ltda - EPP</h3>
+            <p><strong>Cargo:</strong> Estagiário de Help Desk</p>
+            <p>
+              <strong>Atividades:</strong> Suporte técnico a sistema de automação
+              comercial por telefone, chat e acesso remoto.
+            </p>
+          </article>
+          <article class="timeline-item panel">
+            <p class="timeline-meta">05/2017 - 10/2018</p>
+            <h3>Orbitall Atendimento Ltda.</h3>
+            <p><strong>Cargo:</strong> Operador I</p>
+            <p>
+              <strong>Atividades:</strong> Atendimento receptivo na área de vendas
+              para companhia aérea, com foco em suporte ao cliente e fechamento de
+              solicitações.
+            </p>
+          </article>
+          <article class="timeline-item panel muted-panel">
+            <p class="timeline-meta">07/2016 - 01/2017</p>
+            <h3>TMKT Serviços de Marketing Ltda.</h3>
+            <p><strong>Cargo:</strong> Agente de Atendimento</p>
+            <p>
+              <strong>Atividades:</strong> Atendimento receptivo em SAC, com foco em
+              suporte ao cliente, tratativa de demandas e orientação operacional.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="cursos">
+        <div class="section-heading">
+          <p class="eyebrow">Formação complementar</p>
+          <h2>Cursos técnicos</h2>
+        </div>
+        <div class="info-grid two-columns">
+          <article class="panel">
+            <h3>Técnico em Desenvolvimento de Sistemas</h3>
+            <p><strong>Instituição:</strong> Etec Zona Leste - Centro Paula Souza</p>
+            <p><strong>Local:</strong> São Paulo, SP</p>
+            <p><strong>Período:</strong> 07/2018 - 12/2019</p>
+          </article>
+          <article class="panel">
+            <h3>Técnico em Informática para Internet</h3>
+            <p><strong>Instituição:</strong> Etec Parque Belém - Centro Paula Souza</p>
+            <p><strong>Local:</strong> São Paulo, SP</p>
+            <p><strong>Período:</strong> 07/2011 - 12/2012</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="idiomas">
+        <div class="section-heading">
+          <p class="eyebrow">Comunicação</p>
+          <h2>Idiomas</h2>
+        </div>
+        <div class="language-list panel">
+          <div>
+            <span>Português</span>
+            <strong>Nativo</strong>
+          </div>
+          <div>
+            <span>Inglês</span>
+            <strong>Básico</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="projetos">
+        <div class="section-heading">
+          <p class="eyebrow">Portfólio</p>
+          <h2>Projetos por semestre</h2>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card" href="#streetwise">
+            <span class="project-term">1º semestre</span>
+            <h3>Streetwise Tattoo</h3>
+            <p>Website institucional para o estúdio de tatuagem Streetwise Tattoo.</p>
+          </a>
+
+          <a class="project-card" href="#recicleaqui">
+            <span class="project-term">2º semestre</span>
+            <h3>RecicleAqui</h3>
+            <p>Sistema web para gestão de clientes, usuários e coleta de materiais recicláveis.</p>
+          </a>
+
+          <a class="project-card" href="#academitrack">
+            <span class="project-term">3º semestre</span>
+            <h3>AcademiTrack</h3>
+            <p>Aplicação web para acompanhar o progresso acadêmico de estudantes.</p>
+          </a>
+
+          <a class="project-card" href="#doefood">
+            <span class="project-term">4º semestre</span>
+            <h3>DoeFood</h3>
+            <p>Aplicação para conectar doadores e organizações contra a insegurança alimentar.</p>
+          </a>
+
+          <a class="project-card" href="#recicleaqui20">
+            <span class="project-term">5º semestre</span>
+            <h3>RecicleAqui 2.0</h3>
+            <p>Evolução do sistema com backend, app cliente e painel administrativo.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="content-section project-detail" id="streetwise">
+        <div class="section-heading">
+          <p class="eyebrow">Projeto 01</p>
+          <h2>Streetwise Tattoo</h2>
+        </div>
+        <div class="project-layout">
+          <article class="panel">
+            <h3>Descrição</h3>
+            <p>
+              Site institucional do estúdio, com foco em identidade visual, apresentação dos serviços e presença online.
+            </p>
+            <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript e Bootstrap.</p>
+            <p><strong>Sua participação:</strong> Atualização do index.html, retoques finais de layout, ajuste de tipografia e redimensionamento de imagens e carrosséis.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/streetwise-web" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/streetwise-web
+              </a>
+            </p>
+          </article>
+          <article class="screenshot-frame" aria-label="Screenshot do projeto Streetwise Tattoo">
+            <span>Screenshot</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section project-detail" id="recicleaqui">
+        <div class="section-heading">
+          <p class="eyebrow">Projeto 02</p>
+          <h2>RecicleAqui</h2>
+        </div>
+        <div class="project-layout">
+          <article class="panel">
+            <h3>Descrição</h3>
+            <p>
+              Sistema web para gerenciamento de clientes, usuários e processos de reciclagem.
+            </p>
+            <p><strong>Tecnologias:</strong> Node.js, Express.js, Express-Handlebars, Express-Session, Body-Parser, MySQL2, Sequelize, Nodemailer e Moment.</p>
+            <p><strong>Sua participação:</strong> Estrutura básica de rotas e views, avaliação de coletas, ajustes em authView e adminView, além de refinamentos em config, app.js e pacotes do projeto.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/recicleaqui" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/recicleaqui
+              </a>
+            </p>
+          </article>
+          <article class="screenshot-frame" aria-label="Screenshot do projeto RecicleAqui">
+            <span>Screenshot</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section project-detail" id="academitrack">
+        <div class="section-heading">
+          <p class="eyebrow">Projeto 03</p>
+          <h2>AcademiTrack</h2>
+        </div>
+        <div class="project-layout">
+          <article class="panel">
+            <h3>Backend</h3>
+            <p>
+              API para gerenciamento acadêmico com foco em autenticação, cadastro de alunos e relatórios.
+            </p>
+            <p><strong>Tecnologias:</strong> Node.js, Express, MongoDB, Mongoose, JWT, bcryptjs e Nodemon.</p>
+            <p><strong>Contribuição:</strong> Ajustes de configuração, middlewares e estrutura de modelos/rotas da aplicação acadêmica.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/academitrack-back" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/academitrack-back
+              </a>
+            </p>
+          </article>
+          <article class="panel muted-panel">
+            <h3>Frontend</h3>
+            <p>
+              Interface web para interação com a API, focada em cadastro, consultas e acompanhamento acadêmico.
+            </p>
+            <p><strong>Tecnologias:</strong> React, React Router, Axios, Bootstrap e Jest.</p>
+            <p><strong>Contribuição:</strong> Implementação do VLibras e apoio à construção da interface responsiva e acessível.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/academitrack-front" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/academitrack-front
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section project-detail" id="doefood">
+        <div class="section-heading">
+          <p class="eyebrow">Projeto 04</p>
+          <h2>DoeFood</h2>
+        </div>
+        <div class="project-layout">
+          <article class="panel">
+            <h3>Backend</h3>
+            <p>
+              API responsável pela gestão de doações de alimentos, autenticação e controle de usuários.
+            </p>
+            <p><strong>Tecnologias:</strong> Node.js, Express, Firebase Cloud Firestore e Firebase Authentication.</p>
+            <p><strong>Contribuição:</strong> Refatoração da estrutura, serviços Firebase, recuperação de senha por e-mail/código, validações de CNPJ e token, além de ajustes no controlador de usuários.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/doefood-back" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/doefood-back
+              </a>
+            </p>
+          </article>
+          <article class="panel muted-panel">
+            <h3>Frontend</h3>
+            <p>
+              Interface web da plataforma DoeFood, com foco em doações, histórico e gestão de perfil.
+            </p>
+            <p><strong>Tecnologias:</strong> React, TypeScript, Vite, Axios e Styled Components.</p>
+            <p><strong>Contribuição:</strong> Evolução do histórico de doações e do perfil, implementação de componentes de exibição, botão de certificado e melhorias de acessibilidade com VLibras.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/doefood-front" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/doefood-front
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section project-detail" id="recicleaqui20">
+        <div class="section-heading">
+          <p class="eyebrow">Projeto 05</p>
+          <h2>RecicleAqui 2.0</h2>
+        </div>
+        <div class="project-layout">
+          <article class="panel">
+            <h3>Backend</h3>
+            <p>
+              API da nova versão da plataforma, com foco em autenticação, operações de descarte e suporte a perfis diversos.
+            </p>
+            <p><strong>Tecnologias:</strong> Node.js, Express, Prisma, PostgreSQL, JWT, Bcrypt, Nodemailer, Helmet, Winston e ESLint.</p>
+            <p><strong>Contribuição:</strong> Ajustes em recuperação de senha, upload de avatar, validação de token, listagem de descartes por distância e documentação de endpoints.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/recicleaqui-20-back" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/recicleaqui-20-back
+              </a>
+            </p>
+          </article>
+          <article class="panel muted-panel">
+            <h3>App cliente</h3>
+            <p>
+              Aplicativo mobile para clientes, coletores e empresas que descartam materiais recicláveis.
+            </p>
+            <p><strong>Tecnologias:</strong> React Native, Expo, TypeScript, React Navigation, Styled Components, AsyncStorage, React Hook Form, Zod, Expo Image Picker, Expo Font e ViaCEP.</p>
+            <p><strong>Contribuição:</strong> Tela de perfil com seletor de foto, provider de toast, recuperação de senha, ajustes de estrutura de endereço e melhorias nos componentes da aplicação.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/recicleaqui-20-client" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/recicleaqui-20-client
+              </a>
+            </p>
+          </article>
+          <article class="panel muted-panel">
+            <h3>Painel administrativo</h3>
+            <p>
+              Painel web para acompanhamento da operação, pedidos, usuários e histórico da plataforma.
+            </p>
+            <p><strong>Tecnologias:</strong> React, Vite, TypeScript, React Router Dom, CSS Modules, ESLint e Prettier.</p>
+            <p><strong>Contribuição:</strong> Implantação de pipeline, sidebar, dashboard, histórico, página de pedidos com Leaflet e campos de endereço com busca de CEP.</p>
+            <p>
+              <strong>Repositório:</strong>
+              <a href="https://github.com/WebCrafters-ZL/recicleaqui-20-admin" target="_blank" rel="noreferrer">
+                WebCrafters-ZL/recicleaqui-20-admin
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-copyright">© 2026 Leonardo Silva</p>
+        <nav class="footer-links" aria-label="Links de contato">
+          <a href="https://github.com/leoesilva" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/leonardo-silva" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:leonardo@exemplo.com">Email</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
