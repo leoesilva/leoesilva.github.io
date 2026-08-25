@@ -1,6 +1,6 @@
 # Portfólio Leonardo Silva
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-active-green)](https://www.leoesilva.dev)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-active-green)](https://www.leoesilva.dev.br)
 
 Portfólio acadêmico e profissional de **Leonardo Silva**. Apresenta formação, experiência, cursos e projetos desenvolvidos durante o Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma na Fatec Zona Leste.
 
@@ -65,7 +65,7 @@ Evolução completa com 3 componentes:
 
 ## 🌐 Acessar o Site
 
-O portfólio está disponível em: **https://www.leoesilva.dev**
+O portfólio está disponível em: **https://www.leoesilva.dev.br**
 
 Compatível com todos os navegadores modernos (Chrome, Firefox, Safari, Edge) e otimizado para dispositivos móveis.
 
@@ -73,10 +73,10 @@ Compatível com todos os navegadores modernos (Chrome, Firefox, Safari, Edge) e 
 
 ## 🔗 Conecte-se
 
-- **Site:** https://www.leoesilva.dev
+- **Site:** https://www.leoesilva.dev.br
 - **GitHub:** https://github.com/leoesilva
 - **LinkedIn:** https://linkedin.com/in/leonardo-silva
 
 ---
 
-**Última atualização:** Abril de 2026
+**Última atualização:** Agosto de 2026
