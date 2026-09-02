@@ -1,0 +1,16 @@
+{
+  "name": "Astro (Node.js 24 & TypeScript)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:5-24-bookworm",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+
+  "forwardPorts": [4321]
+}

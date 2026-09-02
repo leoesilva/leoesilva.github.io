@@ -1,82 +1,43 @@
-# Portfólio Leonardo Silva
+# Astro Starter Kit: Minimal
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/leoesilva/leoesilva.github.io/pages%2Fpages-build-deployment?branch=main&logo=github&label=GitHub%20Pages&link=https%3A%2F%2Fgithub.com%2Fleoesilva%2Fleoesilva.github.io%2Factions%2Fworkflows%2Fpages%2Fpages-build-deployment)
+```sh
+npm create astro@latest -- --template minimal
+```
 
-Portfólio acadêmico e profissional de **Leonardo Silva**. Apresenta formação, experiência, cursos e projetos desenvolvidos durante o Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma na Fatec Zona Leste.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 👨‍💼 Sobre Leonardo Silva
+## 🚀 Project Structure
 
-Profissional com mais de 6 anos de experiência em suporte técnico e automação comercial, atualmente em formação superior em desenvolvimento de software. Especializado em Help Desk, com histórico de implantação e treinamento em sistemas de automação e atendimento ao cliente.
+Inside of your Astro project, you'll see the following folders and files:
 
-**Contato:**
-- **GitHub:** [github.com/leoesilva](https://github.com/leoesilva)
-- **LinkedIn:** [linkedin.com/in/leonardo-silva](https://linkedin.com/in/leonardo-silva)
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-## 📋 Conteúdo do Site
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-### Hero
-Apresentação inicial com destaque para nome, foto de perfil e breve descrição profissional. Inclui estatísticas acadêmicas (curso, faculdade, período) e botões de ação para GitHub e visualização de projetos.
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-### Dados Acadêmicos
-- **Faculdade:** Fatec Zona Leste - Centro Paula Souza
-- **Curso:** Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma
-- **Período:** 08/2023 a 07/2026
-- **Link GitHub:** github.com/leoesilva
+Any static assets, like images, can be placed in the `public/` directory.
 
-### Experiência Profissional
-Timeline com histórico profissional desde 2016, incluindo:
-- **Técnico de Help Desk** - KS Sistemas Ltda (2019 - presente) - Suporte multicanal e implantação em automação comercial
-- **Estagiário de Help Desk** - KS Sistemas Ltda (2018-2019) - Suporte técnico remoto
-- **Operador I** - Orbitall Atendimento (2017-2018) - Atendimento receptivo em vendas
-- **Agente de Atendimento** - TMKT Serviços (2016-2017) - SAC e suporte ao cliente
+## 🧞 Commands
 
-### Cursos Técnicos
-- **Técnico em Desenvolvimento de Sistemas** - Etec Zona Leste (2018-2019)
-- **Técnico em Informática para Internet** - Etec Parque Belém (2011-2012)
+All commands are run from the root of the project, from a terminal:
 
-### Idiomas
-- **Português:** Nativo
-- **Inglês:** Básico
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### Projetos por Semestre
-Galeria com 5 projetos acadêmicos, cada um com:
-- Descrição do objetivo e escopo
-- Tecnologias utilizadas
-- Detalhamento da participação
-- Links para repositórios
+## 👀 Want to learn more?
 
-#### 1º Semestre - Streetwise Tattoo
-Website institucional com HTML, CSS, JavaScript e Bootstrap. Foco em identidade visual e presença online.
-
-#### 2º Semestre - RecicleAqui
-Sistema web de gestão de clientes e coleta de materiais. Stack: Node.js, Express, MySQL, Sequelize.
-
-#### 3º Semestre - AcademiTrack
-Aplicação acadêmica com backend (Node.js, MongoDB) e frontend (React). Foco em acompanhamento de progresso estudantil.
-
-#### 4º Semestre - DoeFood
-Plataforma conectando doadores e organizações. Backend e frontend com Firebase, React e TypeScript.
-
-#### 5º Semestre - RecicleAqui 2.0
-Evolução completa com 3 componentes:
-- **Backend:** Node.js, Prisma, PostgreSQL
-- **App Mobile:** React Native, Expo, TypeScript
-- **Painel Admin:** React, Vite, Google Maps via Leaflet
-
-## 🌐 Acessar o Site
-
-O portfólio está disponível em: **https://www.leoesilva.dev.br**
-
-Compatível com todos os navegadores modernos (Chrome, Firefox, Safari, Edge) e otimizado para dispositivos móveis.
-
----
-
-## 🔗 Conecte-se
-
-- **Site:** https://www.leoesilva.dev.br
-- **GitHub:** https://github.com/leoesilva
-- **LinkedIn:** https://linkedin.com/in/leonardo-silva
-
----
-
-**Última atualização:** Agosto de 2026
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
