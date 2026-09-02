@@ -1,6 +1,6 @@
 # Portfólio Leonardo Silva
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-active-green)](https://www.leoesilva.dev.br)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/leoesilva/leoesilva.github.io/pages%2Fpages-build-deployment?branch=main&logo=github&label=GitHub%20Pages&link=https%3A%2F%2Fgithub.com%2Fleoesilva%2Fleoesilva.github.io%2Factions%2Fworkflows%2Fpages%2Fpages-build-deployment)
 
 Portfólio acadêmico e profissional de **Leonardo Silva**. Apresenta formação, experiência, cursos e projetos desenvolvidos durante o Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma na Fatec Zona Leste.
 
